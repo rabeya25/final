@@ -17,6 +17,7 @@
   //<link href="css/the-big-picture.css" rel="stylesheet">
 <link href="css/blog-post.css" rel="stylesheet">
 <link href="css/blog-home.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -114,17 +115,27 @@
         <hr>
 
         <!-- Comments Form -->
-        <div class="card my-4">
-          <h5 class="card-header">Leave a Comment:</h5>
-          <div class="card-body">
-            <form>
-              <div class="form-group">
-                <textarea class="form-control" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
-        </div>
+        <div class="container">
+          <h1 class="brand"><span>CONTACT</span> US</h1>
+          <div class="wrapper">
+
+            <div class="contact">
+              <h3>Email Us</h3>
+              <div class="alert">Your message has been sent, Redirecting to Home</div>
+              <form id="contactForm">
+                <p>
+                  <label>Name</label>
+                  <input type="text" name="name" id="name" required>
+                </p>
+                <p class="full">
+                  <label>comment</label>
+                  <textarea name="message" rows="3" id="message"></textarea>
+                </p>
+                <p class="full">
+                  <button type="submit">Submit</button>
+                </p>
+
+                
 
 
         <!-- Single Comment -->
@@ -243,8 +254,8 @@
   <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="main.js"></script>
-  <script src="index.js"></script>
+  <script src="main2.js"></script>
+  <script src="index2.js"></script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -252,6 +263,10 @@
 
 
   <!-- Bootstrap core JavaScript -->
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+  <!--<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>-->
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
