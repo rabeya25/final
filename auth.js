@@ -10,6 +10,6 @@ signupForm.addEventListener('submit',(e)=>{
 
 	auth.createUserWithEmailAndPassword(email, passward).then(cred=>{
     signupForm.reset();
-    document.location.href = "./homepage.html?Signup=Successful";
+    document.location.href = "./index.html?Signup=Successful";
 	});
 });
