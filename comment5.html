@@ -22,7 +22,7 @@
 <body>
 
   <!-- Navigation -->
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">WELCOME</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,12 +49,14 @@
           <li class="nav-item">
             <a class="nav-link" href="contactme.html">CONTACT US</a>
           </li>
+
+
           <li class="nav-item">
-            <a class="nav-link" href="log.html">LogIn</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="signup.html">SIGN UP</a>
-          </li>
+               <a class="nav-link" href="register1.html" id="login">Sign in</a>
+             </li>
+   		   <li class="nav-item">
+               <a class="nav-link" href="#" id="logout" onclick="logout_func()" style="display:none">Sign out</a>
+             </li>
         </ul>
       </div>
     </div>
@@ -98,7 +100,12 @@
 
         <!-- Post Content -->
         <p class="lead">
-        If it is you who brought the pet home, it already sees you as its parent now. But if you are living with your family, it is important that your pet gets comfortable with the other members of the family as well. So, take some time to introduce your new friend to your family. Also, if you already have other pets in the house, acquaint them with the new member too. But make sure that the older pets are on a leash or in their closed spaces so that they can’t harm the new one in any way. Make these introductions slow and subtle so that the new member can have its time to sniff around and feel safe with everyone in the house. Once this basic orientation program for your new pet is done with, you can gradually move on to training it, improving the diet and introducing new activity</p>
+          3 .Most human treadmills can be utilized for K-9 family members too. Make sure to take time to train you dog safely to use a treadmill, and never leash your pet to the treadmill.
+          4 .Play fetch with an indoor safe toy like the Chuck-It indoor roller. Add a little extra to the work out by throwing the ball up the steps!
+          5. Make meal time more fun and stimulating with some interactive puzzle toys!
+          6. Create an indoor agility course for your pup out of things around your house.
+          7. Have a play date with one of your dogs 4legged buddies.
+          8. Rotate your dogs toys so he stays interested and doesn’t get bore</p>
 
       <!--  <blockquote class="blockquote">
           <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -115,7 +122,7 @@
 
         <!-- Comments Form -->
         <div class="container">
-          
+
           <div class="wrapper">
 
             <div class="contact">
@@ -272,6 +279,37 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-firestore.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script>
+  // Firstly, the Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDj0VjKsTCW3i5MDriHp3FLLKquR4CSlyI",
+    authDomain: "authentication-bd266.firebaseapp.com",
+    databaseURL: "https://authentication-bd266.firebaseio.com",
+   projectId: "authentication-bd266",
+    storageBucket: "authentication-bd266.appspot.com",
+    messagingSenderId: "59697091971",
+    appId: "1:59697091971:web:2751ac50cfdccf3d8bd2b6"
+  };
+
+  // Initialize Firebase
+
+  firebase.initializeApp(firebaseConfig);
+  const auth = firebase.auth();
+  </script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+  <script src="js/clean-blog.min.js"></script>
+<script src="ninjaauth.js"></script>
+<script src="logoutcall.js"></script>
 </body>
 
 </html>

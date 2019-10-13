@@ -4,13 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
  */
 body {
-
-    font-size: 1 em;
-    background-color: #ccc;
-    margin: 20px;
-    padding: 100px;
-
-  background: url("https://www.dirtiedogphotography.com/wp-content/uploads/2018/01/silhouette1.jpg") no-repeat center center fixed;
+  font-size: 1 em;
+  background-color: #ccc;
+  margin: 20px;
+  padding: 100px;
+  background: url("https://i.pinimg.com/originals/f3/5b/2a/f35b2a7650c8ee4bea52494d07be30e8.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;

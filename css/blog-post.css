@@ -4,5 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
  */
 body {
-  padding-top: 56px;
+  font-size: 1 em;
+  background-color: #ccc;
+  margin: 70px;
+  padding: 100px;
+  padding-top: 100px;
 }
